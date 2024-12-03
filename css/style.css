@@ -333,6 +333,17 @@ footer p a:hover {
        display: none;
    }
 
+  .hamburger {
+      font-size: 1.8rem;
+      background: none;
+      border: none;
+      color: rgb(250, 231, 231);
+      cursor: pointer;
+      position: absolute;
+      top: -50px;
+      right: 15px;
+  }
+    
    .mobile-nav {
        display: block;
    }
