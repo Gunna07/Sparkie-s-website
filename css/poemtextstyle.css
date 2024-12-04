@@ -460,7 +460,7 @@ text-shadow:
 }
 
 .bettyboop {
-background-image: url(/image/betty boop 4.png);
+background-image: url(/image/betty\ boop\ 4.png);
 background-size: 50%;
 background-position: right;
 background-repeat: no-repeat;
