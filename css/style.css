@@ -293,9 +293,35 @@ footer p a:hover {
     opacity: 0;
 }
 
+ #audioPermissionModal {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.8);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-family: Arial, sans-serif;
+   z-index: 1000;
+   display: none;
+ }
 
+ #audioPermissionModal button {
+   background-color: rgb(194, 52, 47);
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+ }
 
-
+ #audioPermissionModal button:hover {
+   background-color: #45a049;
+ }
 
 
 
