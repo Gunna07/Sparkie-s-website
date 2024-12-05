@@ -13,6 +13,18 @@
 </head>
 <body>
 
+    <iframe width="0" height="0" id="audioFrame" allow="autoplay" frameborder="0" style="display: none;">
+</iframe>
+
+
+    <div id="audioPermissionModal">
+        <div>
+            <h2>Enable Audio</h2>
+            <p>This website includes audio content. Please click the button below to enable audio sound</p>
+            <button id="enableAudioBtn">Enable Audio</button>
+        </div>
+    </div>
+
     <div class="head">
     <header>
        
@@ -112,10 +124,24 @@ dips for one to satisfy the hunger of the pallet, while reaching into the poems 
         
     </footer>
 <script src="/script.js">
-
- 
-
-
 </script>
+
+        <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const modal = document.getElementById('audioPermissionModal');
+            const audioFrame = document.getElementById('audioFrame');
+            const enableAudioBtn = document.getElementById('enableAudioBtn');
+
+            
+            modal.style.display = 'flex';
+
+            
+            enableAudioBtn.addEventListener('click', () => {
+                audioFrame.src = 'https://www.youtuberepeater.com/watch?v=eUBhP57R3Fg&name=How+Great+Thou+Art+Piano+Instrumental+with+Lyrics#gsc.tab=0'; 
+                audioFrame.style.display = 'block';
+                modal.style.display = 'none'; 
+            });
+        });
+    </script>
 </body>
 </html>
