@@ -14,6 +14,15 @@ body {
     overflow-x: hidden;
 }
 
+.dedication{
+    color: #34495e;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
 /* Header */
 .head {
 background: linear-gradient(135deg, #d99cac, #8064a2);
