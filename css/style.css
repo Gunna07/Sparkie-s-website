@@ -335,7 +335,7 @@ footer p a:hover {
  }
 */
 
- #audioPermissionModal, button {
+ #audioPermissionModal button {
    background-color: rgb(194, 52, 47);
    color: white;
    padding: 10px 20px;
@@ -345,7 +345,7 @@ footer p a:hover {
    font-size: 16px;
  }
 
- #audioPermissionModal, button:hover {
+ #audioPermissionModal button:hover {
    background-color: #45a049;
  }
 
@@ -366,7 +366,7 @@ footer p a:hover {
    display: none;
  }
 
- #audioPermissionModal, birthday-card {
+ #audioPermissionModal birthday-card {
      background: #fff;
      border-radius: 20px;
      padding: 40px;
@@ -376,7 +376,7 @@ footer p a:hover {
      position: relative;
  }
 
- #audioPermissionModal, balloons {
+ #audioPermissionModal balloons {
      position: absolute;
      top: -50px;
      left: 50%;
@@ -387,7 +387,7 @@ footer p a:hover {
 
 
 
- #audioPermissionModal, balloon {
+ #audioPermissionModal balloon {
      width: 40px;
      height: 60px;
      background-color: rgba(255, 204, 204, 0.9);
@@ -395,7 +395,7 @@ footer p a:hover {
      position: relative;
  }
 
- #audioPermissionModal, balloon::after {
+ #audioPermissionModal balloon::after {
      content: '';
      position: absolute;
      bottom: -20px;
@@ -405,14 +405,14 @@ footer p a:hover {
      background: #555;
  }
 
- #audioPermissionModal, birthday-header {
+ #audioPermissionModal birthday-header {
      font-size: 28px;
      font-weight: bold;
      color: #ff66a3;
      margin-bottom: 20px;
  }
 
- #audioPermissionModal, message {
+ #audioPermissionModal message {
      font-size: 16px;
      color: #333;
      margin-bottom: 30px;
@@ -422,7 +422,7 @@ footer p a:hover {
      margin-top: 20px;
  }
 
- #audioPermissionModal, celebrate-btn {
+ #audioPermissionModal celebrate-btn {
      background: #ff66a3;
      color: white;
      padding: 12px 20px;
@@ -433,7 +433,7 @@ footer p a:hover {
      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
  }
 
-#audioPermissionModal, celebrate-btn:hover {
+#audioPermissionModal celebrate-btn:hover {
      background: #ff4080;
  }
 
