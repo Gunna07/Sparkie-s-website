@@ -335,6 +335,19 @@ footer p a:hover {
  }
 */
 
+ #audioPermissionModal button {
+   background-color: rgb(194, 52, 47);
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+ }
+
+ #audioPermissionModal button:hover {
+   background-color: #45a049;
+ }
 
  #audioPermissionModal {
      font-family: 'Arial', sans-serif;
