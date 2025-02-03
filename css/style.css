@@ -302,6 +302,8 @@ footer p a:hover {
     opacity: 0;
 }
 
+<!--  
+
  #audioPermissionModal {
    position: fixed;
    top: 0;
@@ -331,7 +333,7 @@ footer p a:hover {
  #audioPermissionModal button:hover {
    background-color: #45a049;
  }
-
+-->
 
 
 @keyframes fadeInUp {
