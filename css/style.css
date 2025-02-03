@@ -338,9 +338,6 @@ footer p a:hover {
 
  #audioPermissionModal {
      font-family: 'Arial', sans-serif;
-     background: linear-gradient(to bottom, #ffe6f0, #ffb3d9);
-   
-
    position: fixed;
    top: 0;
    left: 0;
